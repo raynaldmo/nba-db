@@ -25,5 +25,11 @@ if (preg_match($re, $host)){
   define('LIVE', true);
 }
 
+// report all errors
+error_reporting(E_ALL);
+
+// Always log errors
+ini_set('log_errors', '1');
+
 // error handler:
 set_error_handler ('my_error_handler');
