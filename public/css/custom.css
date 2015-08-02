@@ -1,0 +1,88 @@
+
+.error, .ad {
+  font-weight: bold;
+  color: #C00
+}
+
+.index-line {
+  margin: 30px 0;
+  font-size: 1.3em;
+}
+
+a.index {
+  text-decoration: underline;
+  margin-right: 1%;
+}
+
+#stats-sheet {
+  width: 100%;
+}
+
+.player-tbl {
+  border-collapse: collapse;
+}
+
+.player-search-tbl {
+  margin-top: 30px;
+  border-collapse: collapse;
+}
+
+tr.player-list-heading {
+  margin-bottom: 10px;
+}
+
+.player-list-heading td {
+  color: #000;
+  background-color: #999;
+  padding: 1%;
+}
+
+.player-list td {
+  color: #000;
+  padding: 1%;
+}
+
+.player-list:hover {
+  background-color: lightgray;
+}
+
+tr.player-stat-heading {
+  margin-bottom: 10px;
+}
+
+.player-stat-heading td {
+  color: #000;
+  background-color: #999;
+  padding: 5px;
+}
+
+.player-stat td {
+  color: #000;
+  padding: 5px;
+}
+
+.player-stat:hover {
+  background-color: #d8d8d8;
+}
+
+.form-player {
+  margin-top: 30px;
+}
+
+.profile {
+  color: #000000;
+  font-size: 1.2em;
+}
+
+.profile-name {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.profile p {
+  margin: 7px 0;
+}
+
+.profile span {
+  font-weight: bold;
+}
