@@ -62,7 +62,7 @@ tr.player-stat-heading {
 }
 
 .player-stat:hover {
-  background-color: #d8d8d8;
+  background-color: lightgray;
 }
 
 .form-player {
