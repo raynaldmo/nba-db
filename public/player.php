@@ -213,7 +213,7 @@ function do_query($dbc, $table, $player_name) {
 }
 
 function display_player_profile($res) {
-  $row = mysqli_fetch_array($res, MYSQL_ASSOC);
+  $row = mysqli_fetch_array($res, MYSQLI_ASSOC);
   echo '<div class="profile">';
   echo '<p class="profile-name">'.$row['firstname'].' '.$row['lastname'].'</p>';
   echo '<p><span>Position: </span>'.$row['position'].'</p>';
