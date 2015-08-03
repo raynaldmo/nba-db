@@ -1,5 +1,6 @@
 RewriteEngine on
 Options -MultiViews
 
-RewriteRule ^player/([a-zA-Z0-9_\-\.]+)$ player.php?player_name=$1 [L]
+# Note for this rule we allow ., -, and <space> (+) in player's name
+RewriteRule ^player/([a-zA-Z0-9_\-\.+]+)$ player.php?player_name=$1 [L]
 RewriteRule ^playerlist/([A-Z])$ index.php?lt=$1 [L]
